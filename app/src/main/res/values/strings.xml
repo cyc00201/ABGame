@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AB Game</string>
+
+    <string name="input_hint">請輸入數字</string>
+    <string name="calculate_button">計算結果</string>
+    <string name="result_hint">猜測結果:</string>
+
+    <string name="input_error">輸入有誤</string>
+
+</resources>

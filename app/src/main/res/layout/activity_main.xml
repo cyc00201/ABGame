@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/input_hint"/>
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_button"
+        />
+    <Button
+        android:id ="@+id/again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重新開始"
+        />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/show_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "偷看答案"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:textAlignment="center"
+                android:text="本次猜測歷史紀錄"
+                />
+            <TextView
+            android:id = "@+id/history_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
